@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int input_number();
+int input();
 int is_composite(int n);
 void output(int n, int result);
 
 int main() {
-  int n = input_number();
+  int n = input();
   output(n, is_composite(n));
   return 0;
 }
 
-int input_number() {
+int input() {
   printf("Enter a number : ");
   int n;
   scanf(" %d", &n);
