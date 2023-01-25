@@ -25,7 +25,6 @@ int input_array_size()
     int n;
     printf("Enter the size of the array : ");
     scanf(" %d", &n);
-    printf("Working");
     return n;
 }
 void init_array(int n, int a[n])
