@@ -17,6 +17,7 @@ int main()
 
 void input(int *num1, int *den1, int *num2, int *den2)
 {
+    printf("Enter the numerator  and denominator respectively of the 1st and 2d fraction in this order\n");
     scanf("%d %d %d %d", num1, den1, num2, den2);
 }
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
