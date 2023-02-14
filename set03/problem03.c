@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <math.h>
 
-int input();
-int find_fibo(int n);
+int input_number();
+int is_prime(int n);
 void output(int n, int result);
 
 int main()
 {
-    int n = input();
+    int n = input_number();
 
-    output(n, find_fibo(n));
+    output(n, is_prime(n));
 
     return 0;
 }
 
-int input()
+int input_number()
 {
     int n;
     printf("Enter the number : ");
@@ -22,7 +22,7 @@ int input()
     return n;
 }
 
-int find_fibo(int n)
+int is_prime(int n)
 {
     int prime = 1, original = n;
     n--;
